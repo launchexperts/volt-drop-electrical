@@ -165,7 +165,7 @@
 
   /* ---- TAGLINE BAND ---- */
   .tagband{background:var(--ink);color:#fff;padding:42px 0;}
-  .tagband .wrap{display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;}
+  .tagband .wrap{display:flex;flex-direction:column;align-items:center;gap:26px;text-align:center;}
   .tagband .quote{
     font-family:var(--display);font-style:italic;font-size:clamp(1.1rem,1.8vw,1.5rem);
     font-weight:500;max-width:850px;
@@ -480,7 +480,6 @@
     .sec,.contact{padding:74px 0;}
     .cap-grid,.steps,.stats-grid,.foot-grid,.field-row{grid-template-columns:1fr;}
     .form-card{padding:30px 24px;}
-    .tagband .wrap{flex-direction:column;align-items:flex-start;}
     .shot-offset{display:none;}
   }
 </style>
